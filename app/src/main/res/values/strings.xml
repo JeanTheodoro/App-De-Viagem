@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AluraTravel</string>
+    <string name="country">Brasil</string>
+    <string name="Title">Especiais\"</string>
+    <string name="price_passagem">Preço Final:</string>
+    <string name="pay_passagem">REALIZAR PAGAMENTO</string>
+    <string name="imagem_do_pacote">imagem do pacote</string>
+    <string name="cartao_credito">Número do cartão</string>
+    <string name="title_pay">Digite as informçãoes do cartão de credito que você deseja usar par o pagamento</string>
+    <string name="mes">MM</string>
+    <string name="ano">AA</string>
+    <string name="cvc">CVC</string>
+    <string name="button_pagamento">FINALIZAR COMPRA</string>
+    <string name="nome_cartao">Nome do Cartão</string>
+    <string name="valor_de_compra">Valor de compra:</string>
+    <string name="mascara_para_cartao_de_credito">abcdefghijklmnopqrstuvwxyzçABCDEFGHIJKLMNOPQRSTUVWXYZÇ\u0020</string>
+    <string name="parabens">Parabéns!</string>
+    <string name="compra">Compra Realiza com sucesso :)</string>
+    <string name="detalhes_compra">Confira o resumo da compra</string>
+    <string name="todo">TODO</string>
+    <string name="tod">TODO</string>
+</resources>

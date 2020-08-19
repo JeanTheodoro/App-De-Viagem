@@ -1,0 +1,46 @@
+{
+  "pacotes": [
+
+    {
+      "imagem" : "@drawable/sao_paulo_sp",
+      "city"   : "São Paulo",
+      "day"    : "2 dias",
+      "Price"  : "R$ 243,99"
+    },
+
+    {
+      "imagem" : "@drawable/belo_horizonte_mg",
+      "city"   : "Belo Horizonte",
+      "day"    : "3 dias",
+      "Price"  : "R$ 421,50"
+    },
+
+    {
+
+      "imagem" : "@drawable/recife_pe",
+      "city"   : "Recife",
+      "day"    : "4 dias",
+      "Price"  : "R$ 754,20"
+    },
+
+    {
+      "imagem" : "@drawable/rio_de_janeiro_rj",
+      "city"   : "Rio de Janeiro",
+      "day"    : "6 dias",
+      "Price"  : "R$ 532,55"
+    },
+
+    {
+      "imagem" : "@drawable/salvador_ba",
+      "city"   : "Salvador",
+      "day"    : "5 dias",
+      "Price"  : "R$ 899,99"
+    },
+
+    {"imagem" : "@drawable/foz_do_iguacu_pr",
+      "city"   : "Foz do Iguaçu",
+      "day"    : "1 dias",
+      "Price"  : "R$ 289,90"}
+
+  ]
+}

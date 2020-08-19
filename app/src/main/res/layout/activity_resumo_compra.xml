@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/resumo_pagamento_pacote_parabens"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/resumo_pagamento_pacote_compra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/parabens"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/resumo_pagamento_pacote_parabens"
+        app:layout_constraintEnd_toEndOf="@+id/resumo_pagamento_pacote_parabens"
+        app:layout_constraintStart_toStartOf="@+id/resumo_pagamento_pacote_parabens"
+        app:layout_constraintTop_toTopOf="@+id/resumo_pagamento_pacote_parabens"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/resumo_pagamento_pacote_confira"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/compra"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/resumo_pagamento_pacote_parabens"
+        app:layout_constraintEnd_toEndOf="@+id/resumo_pagamento_pacote_compra"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/resumo_pagamento_pacote_compra"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_pagamento_pacote_compra"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tresumo_pagamento_pacote_mensagem_compra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/detalhes_compra"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_pagamento_pacote_parabens" />
+
+    <ImageView
+        android:id="@+id/resumo_pagamento_pacote_imagem_local"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tresumo_pagamento_pacote_mensagem_compra"
+        tools:srcCompat="@drawable/sao_paulo_sp"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/resumo_pagamento_pacote_cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_pagamento_pacote_imagem_local"
+        tools:text="São Paulo" />
+
+    <TextView
+        android:id="@+id/resumo_pagamento_pacote_data_viagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/resumo_pagamento_pacote_cidade"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_pagamento_pacote_cidade"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/resumo_pagamento_pacote_valor_da_passagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/resumo_pagamento_pacote_data_viagem"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_pagamento_pacote_data_viagem"
+        tools:text="TextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
