@@ -14,5 +14,5 @@ _______________
 ## 🚀 Configurações
 
 * Android Studio versâo 4.0
-* Api 24 android _Marshmallow_
+* Api 24 android _Nougat_
 * _Linguagem_ Java
